@@ -10,16 +10,19 @@
 		<div class="navbar navbar-static-top navbar-inverse">
 			<div class="navbar-inner">
 				<div class="container">
+
 					<a href="" class="navbar-brand">TreeBook</a>
 					<ul class="nav navbar-nav">
 						<li>
 							<%= link_to "All Status",statuses_path %>
-						</li> 
+						</li>
 					 </ul>
 				</div>
 			</div>
 		</div>
 		<div class="container">
+			<p class="notice"><%= notice %></p>
+			<p class="alert"><%= alert %></p>
 			<%= yield %>
 		</div>
 	</body>
