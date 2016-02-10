@@ -5,7 +5,8 @@
 <% @statuses.each do |status|%>
 <div class="status">
   <strong>
-  <p> <%= status.user.first_name%> <%= status.user.last_name%></p>
+
+  <p> <%= status.user.full_name%></p>
   </strong>
   <p> <%= status.content%></p>
   <div class="meta">
