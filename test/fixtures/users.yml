@@ -3,3 +3,8 @@ ayhan:
     email : "ayhan@test.com"
     first_name : "ayhan"
     last_name : "basmisirli"
+ali:
+    profile_name : "alibasmisirli"
+    email : "ali@test.com"
+    first_name : "ali"
+    last_name : "basmisirli"
